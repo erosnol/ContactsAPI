@@ -1,8 +1,4 @@
 const express = require("express");
-const {
-    route
-} = require("express/lib/application");
-const res = require("express/lib/response");
 const ContactsModel = require('../Models/contactsSchema')
 
 //* ====== Create Router
